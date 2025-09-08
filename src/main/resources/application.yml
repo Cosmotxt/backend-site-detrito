@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: website
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: detritoe@gmail.com
+    password: pbnn imjj cpod gkhg 
+    properties:
+      mail:
+        smtp:
+          from: detritoe@gmail.com
+          auth: true
+          starttls:
+            enable: true
+    from:
+      name: Detrito Espacial
+    default-encoding: UTF-8
