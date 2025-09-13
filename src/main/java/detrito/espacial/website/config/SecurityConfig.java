@@ -15,7 +15,7 @@ public class SecurityConfig {
         http
             .csrf(csrf -> csrf.disable())
             .authorizeHttpRequests(auth -> auth
-                .requestMatchers("/contato/**").permitAll()
+                .requestMatchers("/contato/**", "/scrape/**").permitAll()
                 .anyRequest().authenticated()
             );
         
